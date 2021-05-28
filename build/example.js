@@ -15,12 +15,10 @@
 // holdNumber.data = 333;
 // const holdString = new HoldString();
 // holdString.data = 'asdfaf';
-var HoldAnything = /** @class */ (function () {
-    function HoldAnything() {
-    }
-    return HoldAnything;
-}());
-var holdNumber = new HoldAnything();
-holdNumber.data = 111;
-var holdString = new HoldAnything();
-holdString.data = 'sadf';
+// class HoldAnything<TypeOfData> {
+//   data: TypeOfData;
+// }
+// const holdNumber = new HoldAnything<number>();
+// holdNumber.data = 111;
+// const holdString = new HoldAnything<string>();
+// holdString.data = 'sadf';

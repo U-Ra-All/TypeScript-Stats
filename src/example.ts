@@ -21,12 +21,12 @@
 // const holdString = new HoldString();
 // holdString.data = 'asdfaf';
 
-class HoldAnything<TypeOfData> {
-  data: TypeOfData;
-}
+// class HoldAnything<TypeOfData> {
+//   data: TypeOfData;
+// }
 
-const holdNumber = new HoldAnything<number>();
-holdNumber.data = 111;
+// const holdNumber = new HoldAnything<number>();
+// holdNumber.data = 111;
 
-const holdString = new HoldAnything<string>();
-holdString.data = 'sadf';
+// const holdString = new HoldAnything<string>();
+// holdString.data = 'sadf';
